@@ -5,4 +5,5 @@ project(motion_planning_libraries VERSION 0.1 DESCRIPTION "Collection of motion 
 find_package(Rock)
 set(ROCK_TEST_ENABLED ON)
 rock_init(motion_planning_libraries 0.1)
+rock_feature(NOCURDIR)
 rock_standard_layout()
